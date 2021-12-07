@@ -17,7 +17,7 @@
 
 - HTML Architecture
 
--HTML Boilerplate
+- HTML Boilerplate
 
 - Image tags
 
