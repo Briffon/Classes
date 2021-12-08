@@ -26,3 +26,23 @@
 - HTML Lists
 
 - Project
+
+### Day 2
+
+- What is version control?
+
+- Github
+
+- HTML Navigation
+
+- HTML Tables
+
+- HTML Forms
+
+- IDs and Classes
+
+- CSS Selectors
+
+- Types of elements
+
+- CSS Styling
