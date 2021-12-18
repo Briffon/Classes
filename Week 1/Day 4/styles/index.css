@@ -1,0 +1,278 @@
+body {
+  width: 100vw;
+}
+
+/* covid panel css */
+.covid-panel {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  color: white;
+}
+
+.covid-panel img {
+  width: 25px;
+  height: 25px;
+}
+
+.covid-panel-info {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.covid-panel-details {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.icon-box img {
+  margin-right: 0.5rem;
+}
+
+/* Navigation css */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 11vh;
+  -webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.23);
+}
+
+nav img {
+  width: 75px;
+  height: 75px;
+  margin-right: 10rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav ul li a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+nav button {
+  margin-left: 10rem;
+  border: 2px solid red;
+  background-color: transparent;
+  width: 100px;
+  height: 50px;
+  border-radius: 100px 100px 100px 100px;
+  color: red;
+}
+
+/* Page content */
+.page-content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Hero Image */
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 10px;
+}
+
+.hero-info h1 {
+  font-size: 53px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-info p {
+  margin-bottom: 1rem;
+}
+
+.hero-info button {
+  width: 25%;
+  height: 55px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 100px 100px 100px 100px;
+}
+
+.hero-info button:hover {
+  background-color: black;
+}
+
+.hero img {
+  width: 471px;
+  height: 471px;
+  border-radius: 50%;
+}
+
+/* advantage */
+.advantages {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.advantage {
+  width: 25%;
+  position: relative;
+  padding: 2rem;
+  margin-left: 2rem;
+  border-radius: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.43);
+}
+
+.advantage:nth-of-type(3) {
+  margin-right: 2rem;
+}
+
+.advantage h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.advantage p {
+  font-size: 16px;
+  color: gray;
+}
+
+.advantage img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+/* Form */
+.package-tracking {
+  border: 2px solid red;
+  width: calc(100% - 4rem);
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: red;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 5rem;
+
+  position: relative;
+}
+
+.package-tracking::after {
+  content: "";
+  width: 150px;
+  height: 150px;
+  background: url("../images/pattern.png") no-repeat;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+  opacity: 0.5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.package-tracking div {
+  width: 50%;
+}
+
+.package-tracking div h2 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.package-tracking p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.package-tracking form {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.package-tracking form input {
+  width: 60%;
+  margin-right: 0.8rem;
+  height: 30px;
+  border-radius: 100px 100px 100px 100px;
+  border-color: white;
+  background-color: transparent;
+  border-width: 3px;
+  font-size: 20px;
+  padding: 0.5rem;
+}
+
+.package-tracking form input::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.package-tracking form button {
+  width: 35%;
+  height: 55px;
+  background-color: white;
+  color: red;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 100px 100px 100px 100px;
+}
+
+.package-tracking form button:hover {
+  background-color: black;
+}
